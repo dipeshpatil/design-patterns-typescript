@@ -1,4 +1,4 @@
-import { Castle } from "../kingdom/castle";
+import { Castle } from "../castle";
 
 export class OrcCastle implements Castle {
   static DESCRIPTION = "This is the orc castle!";

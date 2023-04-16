@@ -1,4 +1,4 @@
-import { King } from "../kingdom/king";
+import { King } from "../king";
 
 export class ElfKing implements King {
   static DESCRIPTION = "This is the elven king!";

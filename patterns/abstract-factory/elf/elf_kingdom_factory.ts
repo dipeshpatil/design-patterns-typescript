@@ -1,7 +1,7 @@
-import { Army } from "../kingdom/army";
-import { Castle } from "../kingdom/castle";
-import { King } from "../kingdom/king";
-import { KingdomFactory } from "../kingdom/kingdom_factory";
+import { Army } from "../army";
+import { Castle } from "../castle";
+import { King } from "../king";
+import { KingdomFactory } from "../kingdom_factory";
 import { ElfArmy } from "./elf_army";
 import { ElfCastle } from "./elf_castle";
 import { ElfKing } from "./elf_king";

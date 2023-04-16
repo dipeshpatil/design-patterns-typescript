@@ -1,4 +1,4 @@
-import { Army } from "../kingdom/army";
+import { Army } from "../army";
 
 export class ElfArmy implements Army {
   static DESCRIPTION = "This is the elven army!";

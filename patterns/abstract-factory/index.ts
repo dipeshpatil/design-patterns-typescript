@@ -1,6 +1,6 @@
-import { FactoryMaker, Kingdom, KingdomType } from "./kingdom/kingdom";
+import { FactoryMaker, Kingdom, KingdomType } from "./kingdom";
 
-const kingdom: Kingdom = new Kingdom();
+const kingdom = new Kingdom();
 
 function createKingdom(kingdomType: KingdomType) {
   const kingdomFactory = FactoryMaker.makeFactory(kingdomType);

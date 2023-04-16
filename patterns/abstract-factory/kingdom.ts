@@ -1,9 +1,9 @@
 import { Army } from "./army";
 import { Castle } from "./castle";
-import { ElfKingdomFactory } from "../elf/elf_kingdom_factory";
+import { ElfKingdomFactory } from "./elf/elf_kingdom_factory";
 import { King } from "./king";
 import { KingdomFactory } from "./kingdom_factory";
-import { OrcKingdomFactory } from "../orc/orc_kingdom_factory";
+import { OrcKingdomFactory } from "./orc/orc_kingdom_factory";
 
 export enum KingdomType {
   ELF,
